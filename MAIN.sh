@@ -28,3 +28,6 @@ echo "Check in ${DWORK} the file plink_all_results.csv"
 
 # Invio a Reggiana 
 rclone copy merged_plink "EnricoUnipd:Genotipi_Neogen_Reggiana" --include "Reggiana*"
+
+# se modifico qualcosa, aggiorno anche su GitHub
+bash ${DSCRIPT}/uploadgit.sh
